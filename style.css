@@ -6,6 +6,7 @@ ul {
     color:darkblue;
     text-align: center;
     list-style-position: inside;
+    padding: 0 auto;
 }
 
 ol {
@@ -13,6 +14,8 @@ ol {
     font-weight: 150;
     color:black;
     list-style-position: inside;
+    margin: 12px;
+    padding: 0 auto;
 }
 
 

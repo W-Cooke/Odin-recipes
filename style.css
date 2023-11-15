@@ -8,9 +8,14 @@ figure {
     overflow: hidden;
 }
 
+.recipes-index {
+    flex-direction: row;
+}
+
 .link_container{
     align-items: center;
     flex: auto;
+    flex-direction: row;
 }
 
 .container {

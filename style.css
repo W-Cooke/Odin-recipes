@@ -31,12 +31,15 @@ figure {
     align-items: center;
     border: 10px;
     border-color: aqua;
+    margin: 10px;
+    justify-content: center;
 }
 
 .image {
-    display: block;
+    display: flex;
     width: 100%;
     height: auto;
+    justify-content: center;
 }
 
 .overlay {
@@ -88,6 +91,11 @@ h1 {
     font-weight: bolder;
 }
 
+.center_title {
+    font-size: 72px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 h3 {
     text-decoration: underline;
 }
@@ -95,10 +103,10 @@ h3 {
 #bonapp {
     font-size: 24px;
     font-style: italic;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    justify-content: center;
 }
 
 body {
-    background-color: ivory;
-    text-align: center;
+    background-color:bisque;
 }
